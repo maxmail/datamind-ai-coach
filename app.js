@@ -26,8 +26,7 @@ function displayMessage(message, sender) {
 }
 
 async function getChatGPTResponse(userInput) {
-    const apiKey = 'YOUR_API_KEY';  // Replace with your actual API key
-    const response = await fetch('https://api.openai.com/v1/completions', {
+        const response = await fetch('https://api.openai.com/v1/completions', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
